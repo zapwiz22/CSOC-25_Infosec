@@ -1,0 +1,21 @@
+maanlo x = 1
+maanlo y = 5.25
+maanlo z = "9"
+dikhao(x,y,z)
+
+agar(y>x) {
+jab tak(y>x) {
+    dikhao("y is ",y)
+    y = y - 1
+}
+}
+nahi to(y<x) {
+    jab tak(x>y) {
+        dikhao("x is ",x)
+        x = x -1
+    }
+} 
+// wow comment check
+warna{
+    dikhao("x is equal to y and their values are",x)
+}
