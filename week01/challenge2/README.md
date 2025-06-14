@@ -10,6 +10,8 @@ Files can always be changed in a secret way. Can you find the flag?
 Just used the **exiftool** command and it was enough to move ahead then.
 ![information-solution](./1-information/sol.png)
 
+---
+
 ### Matryoshka doll
 
 ##### Challenge Description:
@@ -21,6 +23,8 @@ Checked the file format using **file** command and it said *png* instead of *jpe
 
 Flag: `picoCTF{bf6acf878dcbd752f4721e41b1b1b66b}
 
+---
+
 ### tunn3l v1s10n
 
 ##### Challenge Description: 
@@ -30,6 +34,8 @@ We found this [file](./3-tunnel/tunn3l_v1s10n). Recover the flag.
 ##### Writeup:
 Doing...
 
+---
+
 ### MacroHard WeakEdge
 
 ##### Challenge Description: 
@@ -38,6 +44,7 @@ I've hidden a flag in this file. Can you find it? [Forensics is fun.pptm](./4-we
 ##### Writeup:
 Doing...
 
+---
 
 
 ### Enhance!
@@ -51,6 +58,8 @@ Download this image file and find the flag.
 Didn't find anything using exiftool and binwalk so being an svg and having experience in dealing with SVG's I opened it using neovim and found the flag broken ![flag](./5-enhance/sol.png)
 Flag: `picoCTF{3nh4nc3d_aab729dd}`
 
+---
+
 ### advanced-potion-making
 
 ##### Challenge Description:
@@ -61,6 +70,7 @@ Ron just found his own copy of advanced potion making, but its been corrupted by
 ##### Writeup:
 Doing...
 
+---
 
 
 
@@ -78,6 +88,8 @@ Read the contents using cat and found it to be a bash script which I ran using
 
 Flag: `picoCTF{f1len@m3_m@n1pul@t10n_f0r_0b2cur17y_950c4fee}`
 
+---
+
 ### hideme
 
 ##### Challenge Description:
@@ -91,6 +103,8 @@ Checked the `flag.png` file using exiftool and binwalk and extracted the data us
 
 Flag: `picoCTF{Hiddinng_An_imag3_within_@n_ima9e_96539bea}`
 
+
+---
 
 ### MSB 
 
@@ -110,6 +124,9 @@ python3 sigBits.py --type=Msb Ninja-and-Prince-Genji-Ukiyoe-Utagawa-Kunisada.fla
 grep -o 'picoCTF{[^}]*}' outputSB.txt
 ```
  and got the Flag: `picoCTF{15_y0ur_que57_qu1x071c_0r_h3r01c_572ad5fe}`
+ 
+ 
+ ---
  
  
  ### extensions
